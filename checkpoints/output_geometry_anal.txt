@@ -1,0 +1,9 @@
+/usr/bin/uv run /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/.venv/bin/python /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/src/geometry_anal.py
+🚀 使用设备: cuda
+正在从 /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/data 加载 MNIST 数据集...
+正在加载权重: /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/checkpoints/baseline_mnist.pth
+提取到 fc1 层权重，Shape: torch.Size([256, 784])
+相似度矩阵计算完成，Shape: (256, 256)
+正在绘制热力图，请稍候...
+✅ 热力图已保存至: /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/checkpoints/fc1_similarity_heatmap.png
+📊 统计: 在 65280 对神经元组合中，有 46 对的余弦相似度 > 0.7！

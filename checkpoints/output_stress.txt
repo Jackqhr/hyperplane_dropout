@@ -1,0 +1,15 @@
+/usr/bin/uv run /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/.venv/bin/python /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/src/stress.py
+⏳ 训练 [none] ...
+⏳ 训练 [fixed] ...
+⏳ 训练 [hyper] ...
+
+✅ 已保存: /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/checkpoints/stress_test_fixed.png
+
+============================================================
+Strategy        | Test Acc
+------------------------------------------------------------
+none            |  83.33%
+fixed           |  86.11%
+hyper           |  86.67% 🏆
+============================================================
+

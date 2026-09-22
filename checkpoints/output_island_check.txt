@@ -1,0 +1,42 @@
+/usr/bin/uv run /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/.venv/bin/python /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/src/island_check.py
+📊 v2 高压力孤岛对比 (Mean±Std):
+  [fixed] seed=0
+  [fixed] seed=1
+  [fixed] seed=2
+  [hyper] seed=0
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+  [hyper] seed=1
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+  [hyper] seed=2
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=12/77, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+    [update] a=0/0, b=77, mean_p=0.100
+
+======================================================================
+Mode   |Acc%         |islands(0.02)|islands(0.05)|islands(0.1)
+----------------------------------------------------------------------
+fixed  |89.33±0.57 |  4.67±1.70  |  4.67±1.70  |  4.67±1.70
+hyper  |87.63±1.90 |  1.67±1.70  |  1.67±1.70  |  2.00±2.16
+======================================================================

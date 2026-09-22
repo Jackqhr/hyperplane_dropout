@@ -1,0 +1,73 @@
+/usr/bin/uv run /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/.venv/bin/python /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/src/pro_island_check.py
+📊 v3 三模式对比: fixed / sim-only / combined (Mean±Std)
+  [fixed] seed=0
+  [fixed] seed=1
+  [fixed] seed=2
+  [sim-only] seed=0
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+  [sim-only] seed=1
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+  [sim-only] seed=2
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+    [sim-only] a=12/256, b=76, mean_p=0.100
+  [combined] seed=0
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+  [combined] seed=1
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+  [combined] seed=2
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=12/77, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+    [combined] a=0/0, b=77, mean_p=0.100
+
+==============================================================================
+Mode      |Acc%         |islands(0.02)|islands(0.05)|islands(0.1)
+------------------------------------------------------------------------------
+fixed     |89.33±0.57 |  4.67±1.70   |  4.67±1.70   |  4.67±1.70
+sim-only  |88.23±2.32 |  4.33±1.25   |  4.33±1.25   |  4.33±1.25
+combined  |87.63±1.90 |  1.67±1.70   |  1.67±1.70   |  2.00±2.16
+==============================================================================

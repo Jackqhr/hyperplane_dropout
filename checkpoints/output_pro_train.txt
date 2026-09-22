@@ -1,0 +1,22 @@
+/usr/bin/uv run /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/.venv/bin/python /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/src/pro_train.py
+--- Week5: 超平面引导自适应 Dropout 训练 ---
+Epoch [01/10] Loss: 0.4553
+Epoch [02/10] Loss: 0.2286
+  [Epoch 3] 超平面再分析 -> 极刑=0, 保护=77, 默认=179
+Epoch [03/10] Loss: 0.1756
+Epoch [04/10] Loss: 0.1519
+  [Epoch 5] 超平面再分析 -> 极刑=1, 保护=77, 默认=178
+Epoch [05/10] Loss: 0.1315
+Epoch [06/10] Loss: 0.1167
+  [Epoch 7] 超平面再分析 -> 极刑=1, 保护=77, 默认=178
+Epoch [07/10] Loss: 0.1060
+Epoch [08/10] Loss: 0.1019
+  [Epoch 9] 超平面再分析 -> 极刑=0, 保护=77, 默认=179
+Epoch [09/10] Loss: 0.0919
+Epoch [10/10] Loss: 0.0877
+⏱️ 耗时: 138.3s
+========================================
+🎯 Week5 超平面Dropout 准确率: 98.01%
+📏 Baseline 对照: 97.80%
+========================================
+💾 权重已保存: /home/jackqhr/文档/Project/Machine Learning/hyperplane_dropout/checkpoints/week5_hyperplane.pth
